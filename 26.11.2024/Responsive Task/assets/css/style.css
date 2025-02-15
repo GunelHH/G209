@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.row .card span {
+  display: block;
+}
+.row .card .image {
+  width: 800px;
+}
+.row .card .image img {
+  width: 100%;
+}
+
+.row .card span:last-child {
+  display: flex;
+  align-items: center;
+}
+.row .card span:last-child svg {
+  margin-left: 10px;
+}
+
+@media (max-width: 640px) {
+  .d-sm-block {
+    display: block;
+  }
+}

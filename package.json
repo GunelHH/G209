@@ -1,0 +1,14 @@
+{
+  "name": "g209",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w 21.12.2024/assets/scss -o 21.12.2024/assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

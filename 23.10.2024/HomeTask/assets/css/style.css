@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 90vh;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+.margin {
+  width: 80%;
+  height: 90%;
+  background-color: orange;
+  margin: 0 auto;
+}
+.border {
+  width: 80%;
+  height: 90%;
+  background-color: skyblue;
+  margin: auto;
+}
+.padding {
+  width: 80%;
+  height: 90%;
+  background-color: yellow;
+  margin: auto;
+}
+.content {
+  width: 80%;
+  height: 90%;
+  background-color: greenyellow;
+  margin: auto;
+  padding: 26% 20px;
+}

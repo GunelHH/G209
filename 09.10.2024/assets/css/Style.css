@@ -1,0 +1,58 @@
+/* * {
+  color: pink;
+} */
+
+/* p {
+  color: skyblue;
+}
+
+#p {
+  color: green;
+}
+
+.test {
+  color: darkmagenta;
+}
+
+#Third {
+  color: coral;
+} */
+
+/* .paragraph {
+  color: crimson;
+} */
+
+/* .wrapper .head {
+  color: red;
+} */
+/* .head.class1 {
+  color: green;
+} */
+
+/* p.paragraph {
+  color: green;
+} */
+
+/* span,
+p {
+  color: yellowgreen;
+} */
+
+/* div p {
+  color: indigo;
+} */
+
+/* div > p {
+  color: green;
+} */
+
+/* div + p {
+  color: red;
+} */
+
+div ~ p {
+  color: red;
+}
+[target="_blank"] {
+  color: olivedrab;
+}

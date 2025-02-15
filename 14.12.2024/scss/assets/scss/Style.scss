@@ -1,0 +1,22 @@
+body {
+  background-color: rgba(175, 238, 238, 0.549);
+  .container {
+    width: 80%;
+    border: 1px solid sienna;
+    margin: auto;
+    display: flex;
+    .box {
+      padding: 120px;
+      background-color: cadetblue;
+      margin-right: 10px;
+      color: white;
+      font-size: 24px;
+      transition: 500ms;
+      cursor: pointer;
+    }
+    .box:hover {
+      background-color: chocolate;
+      color: black;
+    }
+  }
+}

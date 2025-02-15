@@ -1,0 +1,25 @@
+h1 {
+  color: red;
+}
+.tableTh {
+  background-color: orange;
+  color: cornflowerblue;
+}
+tr {
+  text-align: center;
+  border: 2px solid red;
+}
+td {
+  background-color: skyblue;
+  color: darkolivegreen;
+}
+ol {
+  list-style: none;
+  color: red;
+}
+li {
+  color: rebeccapurple;
+}
+a {
+  color: red;
+}

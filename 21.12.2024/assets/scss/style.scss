@@ -1,0 +1,10 @@
+@import "./utils/mixin.scss";
+@import "./utils/function.scss";
+
+body {
+  h1 {
+    display: inline;
+    // @include triangle(green, down);
+    padding: sum(20px, 5px);
+  }
+}

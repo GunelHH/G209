@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+    <style>
+      body {
+        margin-top: 100px;
+      }
+      .border1 {
+        border: solid 2px black;
+        height: 100px;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+        border-radius: 0px 0px 0px 0px;
+      }
+      .circle {
+        height: 50px;
+        width: 200px;
+        margin: auto;
+        border-radius: 30px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: white;
+      }
+      .circle::before {
+        content: "";
+        padding: 20px 30px;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 70px;
+        background-color: white;
+        z-index: 2;
+      }
+      .circle::after {
+        content: "";
+        padding: 20px 30px;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        position: absolute;
+        bottom: 30px;
+        right: 70px;
+        background-color: transparent;
+        z-index: -1;
+      }
+
+      .border1 .border3 {
+        border: solid 2px black;
+        height: 50px;
+        width: 200px;
+        position: relative;
+        bottom: 100px;
+        left: 150px;
+        border-radius: 35px;
+        box-shadow: -1px 0p;
+        background-color: white;
+      }
+      .border2 {
+        border: solid 2px black;
+        height: 450px;
+        width: 500px;
+        margin: auto;
+      }
+      .border1 h1 {
+        position: relative;
+        left: 200px;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        top: 50px;
+        left: 150px;
+      }
+      h2 {
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <header>
+      <nav class="nav">
+        <div class="logo"><h4>Theory</h4></div>
+        <div class="navLinks">
+          <ol>
+            <li><a href="">Home</a></li>
+            <li><a href="">Generic</a></li>
+            <li><a href="">Elements</a></li>
+          </ol>
+        </div>
+      </nav>
+      <div class="main">
+        <h1>Welcome to Theory</h1>
+        <p>A free responsive HTML5 website template by TEMPLATED.</p>
+      </div>
+    </header> -->
+    <main></main>
+    <footer></footer>
+
+    <div class="border1">
+      <h1>$200</h1>
+      <div class="circle"></div>
+    </div>
+    <div class="border2">
+      <h2>
+        The gift card for <br />
+        evertying apple
+      </h2>
+      <div class="icons_apple">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXjBYxhladR8Nb1JWgg8j4vOZiA0Bd0eW4Ig&s"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>

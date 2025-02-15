@@ -1,0 +1,93 @@
+h1 {
+  color: red;
+}
+
+.wrapper .heading h1 {
+  color: green;
+}
+
+.wrapper .active a:active {
+  background-color: yellow;
+}
+/* .wrapper .checkedInputs input:checked {
+  outline: 1px solid red;
+}
+
+.Inputs input:disabled {
+  background-color: red;
+}
+
+.Inputs input:enabled {
+  background-color: orange;
+} */
+/* .wrapper .active a:first-child {
+  background-color: blueviolet;
+}
+.Inputs input:first-child {
+  background-color: pink;
+} */
+
+/* a:first-of-type {
+  color: red;
+}
+
+.Inputs input:focus {
+}
+:focus {
+  background-color: goldenrod;
+} */
+
+.wrapper .body:has(+) {
+  color: red;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+.box:hover {
+  background-color: hotpink;
+}
+
+/* .form input:invalid {
+  border: 2px solid rgb(0, 255, 51);
+  outline: none;
+} */
+
+/* :is(ul, ol, p) {
+  color: red;
+}
+
+.wrapper p:last-child {
+  color: green;
+}
+.wrapper p:last-of-type {
+  color: rgb(29, 36, 152);
+}
+
+a:visited {
+  background-color: red;
+}
+a:link {
+  background-color: goldenrod;
+} */
+/* .wrapper p:not(.p) {
+  color: red;
+} */
+
+/* .wrapper p:nth-child(even) {
+  color: red;
+} */
+
+p:nth-last-child(2) {
+}
+.wrapper p:only-of-type {
+  color: blue;
+}
+/* :root {
+  background-color: red;
+} */
+.p.paragraph {
+  color: red;
+}

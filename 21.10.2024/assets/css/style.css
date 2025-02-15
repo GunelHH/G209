@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .respublika {
+  background-color: rgb(151, 146, 146);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.box {
+  margin-top: 10px;
+  border-bottom: 2px solid red;
+} */
+/* .wrapper {
+  display: flex;
+} */
+
+/* .box {
+  width: 180px;
+  height: 180px;
+  border: 2px dashed darkslategray;
+  margin: 20px 15px;
+  background-color: pink;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding: 20px;
+  outline: black groove 2px;
+  outline-offset: 10px;
+}
+
+.box:hover {
+  background-color: darkslategrey;
+  color: white;
+  border-color: palevioletred;
+} */
+.box {
+  height: 600px;
+  border: 2px solid red;
+}
+
+.cover {
+  margin-top: 0 auto;
+  margin-bottom: auto;
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  border: 1px solid;
+}
+
+.box .cover .title h1 {
+  text-align: center;
+  color: yellowgreen;
+  text-transform: uppercase;
+}
+.content > p {
+  text-align: center;
+  /* text-align: end;
+  text-align-last: center; */
+  /* direction: ltr;
+  unicode-bidi: bidi-override; */
+  /* text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 5px; */
+  text-transform: capitalize;
+  /* text-decoration: underline red wavy 2px; */
+  /* text-indent: 50px; */
+  /* letter-spacing: 3px; */
+  /* line-height: 15px; */
+  /* word-spacing: 10px; */
+  white-space: pre;
+}

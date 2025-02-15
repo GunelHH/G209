@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container .sticky .nav {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: antiquewhite;
+  color: darkcyan;
+}
+ol li {
+  padding: 6px;
+  background-color: rgb(150, 196, 214);
+  margin: 4px 0;
+}

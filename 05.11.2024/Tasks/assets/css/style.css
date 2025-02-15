@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 500vh;
+}
+.sticky .head {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  color: lightcyan;
+  background-color: #bfc3ba;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.sticky {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifs;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+ol {
+  margin: 10px 0;
+}
+
+ol li {
+  width: 100%;
+  list-style: none;
+  color: #19647e;
+  line-height: 20px;
+  letter-spacing: 2px;
+  padding: 6px;
+  background-color: honeydew;
+  margin-top: 4px;
+}
