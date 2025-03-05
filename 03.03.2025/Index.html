@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form></form>
+    <div id="other">Trigger the handler</div>
+    <!-- <form action="">
+      <input type="text" />
+      <button type="submit">submit</button>
+    </form>
+    <span id="user"></span> -->
+
+    <!-- <img alt="Book" id="book" /> -->
+
+    <div id="target">Right-click here</div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script>
+    $("#target").on("contextmenu", function () {
+      alert("Handler for `contextmenu` called.");
+    });
+    // $("#book")
+    //   .on("error", function () {
+    //     $("#book").attr(
+    //       "src",
+    //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROXLH2TTUKhtVqmPcr6Bz6ncaWuJINPyLSmw&s"
+    //     );
+    //   })
+    //   .attr(
+    //     "src",
+    //     "https://i0.wp.com/plopdo.com/wp-content/uploads/2021/11/feature-pic.jpg?fit=537%2C322&ssl=1"
+    //   );
+  </script>
+  <script src="assets/js/main.js"></script>
+</html>

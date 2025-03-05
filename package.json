@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass -w 21.12.2024/assets/scss -o 21.12.2024/assets/css"
+    "scss": "node-sass -w 21.12.2024/assets/scss -o 21.12.2024/assets/css",
+    "watch": "nodemon 23.02.2025/assets/js/main.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
