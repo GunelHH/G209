@@ -1,0 +1,1 @@
+(()=>{var e={329:e=>{e.exports=[{name:"test1"},{name:"test2"}]}},r={};console.log(function t(o){var s=r[o];if(void 0!==s)return s.exports;var n=r[o]={exports:{}};return e[o](n,n.exports,t),n.exports}(329))})();
