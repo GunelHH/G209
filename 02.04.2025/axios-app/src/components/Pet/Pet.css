@@ -1,0 +1,22 @@
+img {
+  border-radius: 50%;
+}
+header {
+  background-color: grey;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 10px;
+  background-color: rgb(185, 185, 185);
+  border-radius: 30px;
+  cursor: pointer;
+}
